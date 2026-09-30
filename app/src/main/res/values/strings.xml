@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Catálogo de Productos</string>
+    <string name="search_hint">Buscar por nombre, categoría o descripción</string>
+    <string name="product_count">%1$d productos</string>
+    <string name="add_product">Agregar producto</string>
+    <string name="new_product">Nuevo producto</string>
+    <string name="edit_product">Editar producto</string>
+    <string name="name_hint">Nombre del producto</string>
+    <string name="category_hint">Categoría</string>
+    <string name="price_hint">Precio</string>
+    <string name="stock_hint">Stock</string>
+    <string name="description_hint">Descripción (opcional)</string>
+    <string name="save_product">Guardar producto</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete_title">Eliminar producto</string>
+    <string name="delete_message">¿Deseas eliminar &quot;%1$s&quot;? Esta acción no se puede deshacer.</string>
+    <string name="stock_format">Stock disponible: %1$d</string>
+    <string name="no_description">Sin descripción</string>
+    <string name="empty_title">No hay productos todavía</string>
+    <string name="empty_message">Pulsa el botón + para crear el primer producto del catálogo.</string>
+    <string name="no_results_title">No encontramos productos</string>
+    <string name="no_results_message">Prueba con otro nombre, categoría o descripción.</string>
+    <string name="error_name">Escribe un nombre de al menos 3 caracteres.</string>
+    <string name="error_category">La categoría es obligatoria.</string>
+    <string name="error_price">Ingresa un precio mayor que 0.</string>
+    <string name="error_stock">Ingresa un stock entero igual o mayor que 0.</string>
+    <string name="error_description">La descripción no debe superar 250 caracteres.</string>
+    <string name="product_created">Producto creado correctamente.</string>
+    <string name="product_updated">Producto actualizado correctamente.</string>
+    <string name="product_not_found">No se encontró el producto.</string>
+</resources>

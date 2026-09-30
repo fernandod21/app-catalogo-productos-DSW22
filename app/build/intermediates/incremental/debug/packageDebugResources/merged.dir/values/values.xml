@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="card_stroke">#DDE3EA</color>
+    <color name="error">#D92D20</color>
+    <color name="primary">#155EEF</color>
+    <color name="surface_background">#F7F9FC</color>
+    <color name="text_primary">#172B4D</color>
+    <color name="text_secondary">#667085</color>
+    <string name="add_product">Agregar producto</string>
+    <string name="app_name">Catálogo de Productos</string>
+    <string name="cancel">Cancelar</string>
+    <string name="category_hint">Categoría</string>
+    <string name="delete">Eliminar</string>
+    <string name="delete_message">¿Deseas eliminar "%1$s"? Esta acción no se puede deshacer.</string>
+    <string name="delete_title">Eliminar producto</string>
+    <string name="description_hint">Descripción (opcional)</string>
+    <string name="edit">Editar</string>
+    <string name="edit_product">Editar producto</string>
+    <string name="empty_message">Pulsa el botón + para crear el primer producto del catálogo.</string>
+    <string name="empty_title">No hay productos todavía</string>
+    <string name="error_category">La categoría es obligatoria.</string>
+    <string name="error_description">La descripción no debe superar 250 caracteres.</string>
+    <string name="error_name">Escribe un nombre de al menos 3 caracteres.</string>
+    <string name="error_price">Ingresa un precio mayor que 0.</string>
+    <string name="error_stock">Ingresa un stock entero igual o mayor que 0.</string>
+    <string name="name_hint">Nombre del producto</string>
+    <string name="new_product">Nuevo producto</string>
+    <string name="no_description">Sin descripción</string>
+    <string name="no_results_message">Prueba con otro nombre, categoría o descripción.</string>
+    <string name="no_results_title">No encontramos productos</string>
+    <string name="price_hint">Precio</string>
+    <string name="product_count">%1$d productos</string>
+    <string name="product_created">Producto creado correctamente.</string>
+    <string name="product_not_found">No se encontró el producto.</string>
+    <string name="product_updated">Producto actualizado correctamente.</string>
+    <string name="save_product">Guardar producto</string>
+    <string name="search_hint">Buscar por nombre, categoría o descripción</string>
+    <string name="stock_format">Stock disponible: %1$d</string>
+    <string name="stock_hint">Stock</string>
+    <style name="Theme.CatalogoProductosRoom" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorSecondary">@color/primary</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:navigationBarColor">@color/surface_background</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>
